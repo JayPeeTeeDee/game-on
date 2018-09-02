@@ -42,5 +42,4 @@ var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: '
 var scene1 = new ScrollMagic.Scene({triggerElement: "#flow-trigger", duration: "100%"})
                 .setPin("#features-flow")
                 .setTween(tween)
-                .addIndicators() // add indicators (requires plugin)
                 .addTo(controller);
