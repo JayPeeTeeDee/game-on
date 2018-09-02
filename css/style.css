@@ -7,14 +7,14 @@ Version : 1.0
 Author  : Surjith S M
 URI     : https://surjithctly.in/
 
-Copyright © All rights Reserved 
+Copyright © All rights Reserved
 
 */
 
 
 /*------------------------
 [TABLE OF CONTENTS]
-    
+
 1. GLOBAL STYLES
 2. NAVBAR
 3. HERO
@@ -116,12 +116,6 @@ p.lead {
 
 .btn-primary {
     border-radius: 3px;
-    /*
-    background-image: -moz-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    background-image: -webkit-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    background-image: -ms-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    background-image: linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    */
     background-color: var(--front-color);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
     font-weight: 500;
@@ -135,7 +129,7 @@ p.lead {
 .btn-primary:not([disabled]):not(.disabled).active,
 .btn-primary:not([disabled]):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-color: var(--back-color);
+    background-color: var(--front-color-dark);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
     color: #FFF;
 }
@@ -195,10 +189,7 @@ p.lead {
 
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
-    background-color: var(--back-color);
-    background: -moz-linear-gradient(35deg, var(--back-color) 15%, var(--front-color) 100%);
-    background: -webkit-linear-gradient(35deg, var(--back-color) 15%, var(--front-color) 100%);
-    background: linear-gradient(35deg, var(--back-color) 15%, var(--front-color) 100%);
+    background-color: var(--front-color);
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -220,7 +211,7 @@ p.lead {
     }
     .navbar-nav>.nav-item>.nav-link.active:after {
         content: "";
-        border-bottom: 2px solid #cd99d4;
+        border-bottom: 2px solid #eee;
         left: 1rem;
         right: 1rem;
         bottom: 5px;
@@ -249,17 +240,16 @@ header {
 }
 
 .bg-gradient {
-/*    background-image: -moz-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: -webkit-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: -ms-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);*/
-    background-color: var(--back-color);
+    background-image: -moz-linear-gradient( 135deg, rgba(224, 60, 49, 0.8) 0%, rgba(255, 103, 31, 0.8) 100%);
+    background-image: -webkit-linear-gradient( 135deg, rgba(224, 60, 49, 0.8) 0%, rgba(255, 103, 31, 0.8) 100%);
+    background-image: -ms-linear-gradient( 135deg, rgba(224, 60, 49, 0.8) 0%, rgba(255, 103, 31, 0.8) 100%);
+    background-image: linear-gradient( 135deg, rgba(224, 60, 49, 0.8) 0%, rgba(255, 103, 31, 0.8) 100%);
 }
 
 .tagline {
     font-size: 23px;
     font-weight: 300;
-    color: #ffb8f6;
+    color: white;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -526,62 +516,6 @@ header {
 
 .img-gallery .owl-item.center {
     transform: scale(1);
-}
-
-
-/*  PRICING
-
-@media (max-width:992px) {
-    .card-deck {
-        -ms-flex-direction: column;
-        flex-direction: column;
-    }
-    .card-deck .card {
-        margin-bottom: 15px;
-    }
-}
-
-.card.pricing {
-    border: 1px solid #f1eef1;
-}
-
-.card.pricing.popular {
-    border-top-width: 3px;
-    border-color: #ce75b4 #faf6fb #FFF;
-    box-shadow: 0px 12px 59px 0px rgba(36, 7, 31, 0.11);
-    color: var(--front-color);
-}
-
-.card.pricing .card-head {
-    text-align: center;
-    padding: 40px 0 20px;
-}
-
-.card.pricing .card-head .price {
-    display: block;
-    font-size: 45px;
-    font-weight: 300;
-    color: var(--front-color);
-}
-
-.card.pricing .card-head .price sub {
-    bottom: 0;
-    font-size: 55%;
-}
-
-.card.pricing .list-group-item {
-    border: 0;
-    text-align: center;
-    color: #959094;
-    padding: 1.05rem 1.25rem;
-}
-
-.card.pricing .list-group-item del {
-    color: #d9d3d8;
-}
-
-.card.pricing .card-body {
-    padding: 1.75rem;
 }
 
 
