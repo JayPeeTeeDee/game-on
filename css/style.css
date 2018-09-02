@@ -111,7 +111,7 @@ p.lead {
 }
 
 .btn-outline-light:hover {
-    color: #d6619c;
+    color: var(--front-color);
 }
 
 .btn-primary {
@@ -153,7 +153,7 @@ p.lead {
 }
 
 .light-bg {
-    background-color: #faf6fb;
+    background-color: #fffbf6;
 }
 
 .section {
@@ -433,16 +433,16 @@ header {
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
     padding: 1rem 1rem;
-    border-color: #faf6fb #faf6fb #FFF;
+    border-color: #fffbf6 #fffbf6 #FFF;
     font-size: 19px;
-    color: #b5a4c8;
-    background: #f5eff7;
+    color: #f5b595;
+    background: #fff0e6;
 }
 
 .nav-tabs .nav-link.active {
     background: #FFF;
     border-top-width: 3px;
-    border-color: var(--front-color) #faf6fb #FFF;
+    border-color: var(--front-color) #fffbf6 #FFF;
     color: var(--front-color);
 }
 
@@ -548,7 +548,7 @@ header {
 .call-to-action .tagline {
     font-size: 16px;
     font-weight: 300;
-    color: #ffb8f6;
+    color: white;
     max-width: 650px;
     margin: 0 auto;
 }
@@ -556,6 +556,10 @@ header {
 .btn-light img {
     margin-right: 0.4rem;
     vertical-align: text-bottom;
+}
+
+.call-to-action form {
+    padding-top: 1rem;
 }
 
 
