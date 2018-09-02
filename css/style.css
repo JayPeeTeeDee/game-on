@@ -420,6 +420,11 @@ header {
     margin-bottom: 0.5rem;
 }
 
+.tab-content img {
+    width: 50%;
+    height: auto;
+}
+
 .nav-tabs {
     border-bottom: 0;
 }

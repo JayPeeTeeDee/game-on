@@ -1,13 +1,13 @@
 // define images
 var images_play = [
-    "game-on/images/flow/play1.png",
-    "game-on/images/flow/play2.png",
-    "game-on/images/flow/play3.png",
-    "game-on/images/flow/play4.png"
+    "images/flow/play1.png",
+    "images/flow/play2.png",
+    "images/flow/play3.png",
+    "images/flow/play4.png"
 ];
 var images_host = [
-    "game-on/images/flow/host1.png",
-    "game-on/images/flow/host2.png"
+    "images/flow/host1.png",
+    "images/flow/host2.png"
 ]
 
 var obj = {curImg: 0};
